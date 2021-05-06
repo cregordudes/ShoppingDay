@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--Fonts and Styles-->
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/ae110b98d8.js" crossorigin="anonymous"></script>
+   
+   <title>Shopping Day | Details</title>
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbarCol">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+         <i class="fas fa-dolly fa-3x" style="color: crimson;"></i>
+         Shopping Day
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="nav navbar-nav ms-auto" id="navbarUl">
+            <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#testimonials">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="account.html">Account</a>
+            </li>
+         </ul>
+         <a class="nav-link fas fa-shopping-cart fa-2x" href="cart.html" id="cartImg">
+            <sup>0</sup>
+         </a>
+      </div>
+   </div>
+</nav>
+
+   <!--Single Product Site-->
+   <div class="small-container single-product">
+      <div class="row row-2">
+         <div class="col-6" id="single-products">
+            <div class="img-magnifier-container">
+               <img src="Images/exclusive/exclusive-1.jpg" id="ProductImg" >
+            </div>
+            <div class="small-img-row">
+               <div class="small-img-col">
+                  <img src="Images/exclusive/exclusive-1.jpg" id="smallImg1" class="small-img" width="100%">
+               </div>
+               <div class="small-img-col">
+                  <img src="Images/exclusive/exclusive-2.jpg" id="smallImg2" class="small-img" width="100%">
+               </div>
+               <div class="small-img-col">
+                  <img src="Images/exclusive/exclusive-3.jpg" id="smallImg3" class="small-img" width="100%">
+               </div>
+               <div class="small-img-col">
+                  <img src="Images/exclusive/exclusive-4.jpg" id="smallImg4" class="small-img" width="100%">
+               </div>
+            </div>
+         </div>
+         <div class="col-6" id="single-products">
+            <p>Home/Exclusive</p>
+            <h1>Men's UA Project Rock 2 Training Shoes</h1>
+            <h4>$140.00</h4>
+            <p class="p-size">Size</p>
+            <select name=""" >
+               <option value="">39</option>
+               <option value="">40</option>
+               <option value="">41-42</option>
+               <option value="">42-43</option>
+               <option value="">44</option>
+               <option value="">45</option>
+            </select>
+            <input type="Number" value="1">
+            <button type="button" class="btn btn-danger btn-lg" href="#" >Add to Cart</button>
+            <h3>Product Details</h3>
+            <br>
+            <p>Project Rock training gear was built to help you find boundaries, then push right through them. Everything in this collection was personally approved by Dwayne Johnson, the hardest worker in the room. ANY room.</p>
+         </div>
+      </div>
+
+
+      <!-- Title -->
+      <div class="small-container">
+         <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="products.html">View more</a>
+         </div>
+      </div>
+   
+      <!-- Products -->
+      <div class="row" id="featured-cols">
+
+         <div class="col-3" id="featured-products">
+            <img src="Images/products/trainers5.jpg">
+            <h4>Colored Trainers </h4>
+            <p>$30.00</p>
+         </div>
+         <div class="col-3" id="featured-products">
+            <img src="Images/products/customtrainers1.jpg">
+            <h4>Custom Sneakers</h4>
+            <p>$50.00</p>
+         </div>
+         <div class="col-3" id="featured-products">
+            <img src="Images/products/shoes4.jpg">
+            <h4>Brown Shoes</h4>
+            <p>$30.00</p>
+         </div>
+         <div class="col-3" id="featured-products">
+            <img src="Images/products/kamikazeshoes.jpg">
+            <h4><span style="color:red;">*NEW*</span> Kamikaze Shoes</h4>
+            <p>$80.00</p>
+         </div>
+      </div>
+
+   </div>
+
+   <!--Footer-->
+   <div class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="footer-col-2">
+               <i class="fas fa-dolly fa-5x" style="color: crimson;"></i>
+               <br>
+               <h3><i class="far fa-registered"> Shopping Day</i></h3>
+               <p>The customers are the heart of our shop, that's why we're trying our best to provide the best products all around the world.</p>
+               <a href="#"><img src="Images/payment.png" alt=""></a>
+            </div>
+            <div class="footer-col-1">
+               <h3>Download Our App</h3>
+               <p>Shop from your phone anywhere, anytime!</p>
+               <div class="app-logo">
+                  <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-apple"></i>  Download</button>
+                  <button type="button" class="btn btn-outline-light btn-lg download-button" ><i class="fab fa-google-play"></i>  Download</button>
+               </div>
+            </div>
+            <div class="footer-col-3">
+               <h3>Useful Links</h3>
+               <ul>
+                  <li>FAQ</li>
+                  <li>Delivery</li>
+                  <li>Follow us</li>
+                  <li>Return Policy</li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                  <h6>Stay Tuned!</h6>
+                  <p>Be the first to know about new arrivals and sales!</p>
+                  <form action="#">
+                  <input type="text" placeholder="Your email">
+                  <button type="submit" class="btn btn-dark btn-sm">Send</button>
+            </div>
+         </div>
+         <hr>
+         <p class="copyright">Copyright 2021 - Cravcenco Egor. Work in Progress.</p>
+         <p class="rights">This project was intended to show personal skills and NOT for commerical-use.</p>  
+         <p class="rights">All rights of products, pictures, etc. belong to their specific owners</p>
+         </div>
+   </div>
+
+   
+   <!-- JS for product Gallery -->
+   <script>
+      var ProductImg = document.getElementById("ProductImg");
+      var SmallImg = document.getElementsByClassName("small-img");
+      
+
+      SmallImg[0].onclick = function()
+      {
+         ProductImg.src = SmallImg[0].src;
+         magnify("ProductImg", 3);
+      }
+      SmallImg[1].onclick = function()
+      {
+         ProductImg.src = SmallImg[1].src;
+         magnify("ProductImg", 3);
+      }
+      SmallImg[2].onclick = function()
+      {
+         ProductImg.src = SmallImg[2].src;
+         magnify("ProductImg", 3);
+      }
+      SmallImg[3].onclick = function()
+      {    
+         ProductImg.src = SmallImg[3].src;
+         magnify("ProductImg", 3);
+      }
+   </script>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
